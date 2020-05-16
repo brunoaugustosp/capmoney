@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@font-face{
+    font-family:'font-logo' ;
+    src: url("../fonts/Arciform.otf");
+
+    
+}
+@font-face{
+    font-family: 'corpo';
+    src: url("../fonts/Alvaro-Condensed.otf");
+}
+
+header{
+    background-color: rgb(48, 44, 44);
+    position: relative;
+    text-align: center;
+    
+    
+  
+    
+}
+header h1{
+    text-align: center;
+}
+
+
+
+.superior h1{
+    color: red;
+    display: inline;
+    
+  font-family: 'font-logo';
+     
+   
+    
+}
+.superior button{
+  float: right;
+  padding: -10px;
+ 
+ margin: 30px 5px  10px  ;
+ margin-top: 20px;
+
+
+}
+.inferior {
+    background: rgb(50, 56, 50);
+    
+}
+.inferior ul li{
+   display: inline;
+   padding: 18px;
+   color: honeydew;
+   font-family: 'corpo';
+   font-size: 25px;
+     
+}
+.inferior ul{
+    text-align: center;
+    margin-right: 100px;
+    padding: 5px;
+}
+
+.inferior ul :hover{
+    background-color: rgb(190, 187, 189);
+   
+}
